@@ -1,14 +1,14 @@
-[![Build Status](https://travis-ci.org/meteorhacks/kadira.svg?branch=master)](https://travis-ci.org/meteorhacks/kadira)
+[![Build Status](https://travis-ci.org/RocketChat/monitoring.svg?branch=master)](https://travis-ci.org/RocketChat/monitoring)
 
-## [Kadira - Performance Monitoring for Meteor](https://kadira.io) 
+## [Performance Monitoring for Rocket.Chat](https://kadira.io)
 
-[![Kadira - Performance Monitoring for Meteor](https://i.cloudup.com/LwrCCa_RRE.png)](https://kadira.io)
+[![Performance Monitoring for Rocket.Chat](https://i.cloudup.com/LwrCCa_RRE.png)](https://rocket.chat)
 
 ### Getting started
 
 1. Create an account at <https://kadira.io>
 2. From the UI, create an app. You'll get an `AppId` and an `AppSecret`.
-3. Run `meteor add meteorhacks:kadira` in your project
+3. Run `meteor add rocketchat:monitoring` in your project
 4. Configure your Meteor app with the `AppId` and `AppSecret` by adding the following code snippet to a `server/kadira.js` file:
 
 ```js
@@ -51,9 +51,4 @@ export KADIRA_APP_SECRET=<appSecret>
 
 ### Error Tracking
 
-Kadira comes with built in error tracking solution for Meteor apps. It has been enabled by default.
-For more information, please visit our [docs](http://support.kadira.io/knowledgebase/topics/62637-error-tracking) on [error tracking](http://support.kadira.io/knowledgebase/topics/62637-error-tracking).
-
-### More information
-
-Check out [Kadira Academy](https://kadira.io/academy) for more information and improve your app with Kadira.
+It comes with built in error tracking solution for Meteor apps. It has been enabled by default.
