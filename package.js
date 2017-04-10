@@ -1,6 +1,6 @@
 Package.describe({
-  "summary": "Performance Monitoring for Meteor",
-  "version": "2.30.2_1",
+  "summary": "Performance Monitoring for Rocket.Chat",
+  "version": "2.30.2_2",
   "git": "https://github.com/RocketChat/monitoring.git",
   "name": "rocketchat:monitoring"
 });
